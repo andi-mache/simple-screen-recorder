@@ -1,4 +1,4 @@
-domain: andi-254.github.io/simple-screen-recorder/
+# domain: andi-254.github.io/simple-screen-recorder/
 title: Simple screen recorder
 author: Adrian Mache
 email: andi146@photonemail.com
@@ -10,7 +10,7 @@ github_username:  Andi-146 # DO NOT include the @ character, or else the build w
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
-theme: minima
+theme: hacker
 
        # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://andi-254.github.io/simple-screen-recorder/  # the base hostname and protocol for your site, e.g. http://example.com
