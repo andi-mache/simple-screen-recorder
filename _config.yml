@@ -12,7 +12,7 @@ discord_username : andi-146
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-cayman 
 
 url: https://andi-254.github.io/simple-screen-recorder/  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: /simple-screen-recorder/_config.yml      # place folder name if the site is served in a subfolder
