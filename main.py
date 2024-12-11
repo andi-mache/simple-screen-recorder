@@ -3,19 +3,23 @@ import datetime
 from PIL import ImageGrab
 import numpy as np
 import cv2
-from win32api import GetSystemMetrics
+#from win32api import GetSystemMetrics
+import pyautogui as pag 
 
+
+width , height = pag.size()
 # Get system screen size
-width = GetSystemMetrics(0)
-height = GetSystemMetrics(1)
+
+
 
 # Get current timestamp for filename
+
 time_stamp = datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S')
 file_name = f'{time_stamp}.mp4'  # Define file name
 
 # Define video codec and create VideoWriter object
 fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
-capture_video = cv2.VideoWriter(file_name, fourcc, 20.0, (width, height))
+capture_video = cv2.VideoWriter(file_name, fourcc, 20.0, (1200, 750))
 
 # Flag to keep recording running
 on = True
